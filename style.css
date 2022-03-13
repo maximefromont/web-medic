@@ -1,0 +1,62 @@
+header{
+    height: 50px;
+}
+
+/*Classe CSS pour titre gras*/
+.headerFont{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Verdana;
+    line-height:50px;
+    display: inline;
+}
+
+#textarea{
+    height: 100%;
+}
+
+#loginBlock{
+    max-height: 300px;
+    width: 40%;
+}
+
+.marginT10{
+    margin-top: 10px;
+}
+
+.paddingL {
+    padding-left: 100px;
+}
+
+input{
+    width: 100%;
+}
+
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+}
+
+.horizontal-center{
+    justify-content: center;
+}
+
+/*Palette de couleurs du site*/
+.sWhite{
+    color: white;
+}
+
+.sRed{
+    color: red;
+}
+
+.sBackGroundBlack{
+    background-color: black;
+}
+
+.sBackGroundGrey{
+    background-color: grey;
+}
